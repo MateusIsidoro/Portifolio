@@ -90,15 +90,15 @@ function hamburguer(){
     }
 }
 
-// function abrpsg(pam){
-//     let localpag = document.querySelector('.artigo')
-//     let pag = new XMLHttpRequest()
+function abrpsg(pam){
+    let localpag = document.querySelector('.artigo')
+    let pag = new XMLHttpRequest()
 
-//     pag.onreadystatechange = () =>{
-//         if(pag.readyState == 4 && pag.status == 200){
-//             localpag.innerHTML = pag.response
-//         }
-//     }
-//     pag.open('GET', `../${pam}.github.io/portifolio/`)
-//     pag.send()
-// }
+    pag.onreadystatechange = () =>{
+        if(pag.readyState == 4 && pag.status == 200){
+            localpag.innerHTML = pag.response
+        }
+    }
+    pag.open('GET', `../${pam}.github.io/portifolio/`)
+    pag.send()
+}
