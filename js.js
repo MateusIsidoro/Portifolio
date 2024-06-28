@@ -99,6 +99,6 @@ function abrpsg(pam){
             localpag.innerHTML = pag.response
         }
     }
-    pag.open('GET', `../.github.io/portifolio/${pam}`)
+    pag.open('GET', `../${pam}.html`)
     pag.send()
 }
