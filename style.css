@@ -303,6 +303,10 @@ button img{
   height: 80px;
 }
 @media screen and (max-width: 415px){
+  body{
+    width: -wabkit-fill-availble;
+    height: -wabkit-fill-availble;
+  }
   aside{
     position: fixed;
     width: 0px;
